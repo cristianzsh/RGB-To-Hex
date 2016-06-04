@@ -20,4 +20,5 @@ function convert() {
 		document.getElementById("result").innerHTML = res.toUpperCase();
 		document.body.style.backgroundColor = res;
 	}
+	return false;
 }
