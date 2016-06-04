@@ -1,0 +1,27 @@
+body {
+	background: #EBEBEB;
+}
+
+h1 {
+	font-family: "Calibri";
+	font-size: 64px;
+	text-align: center;
+}
+
+h4 {
+	font-family: "Calibri";
+}
+
+#conv {
+	font-family: "Calibri";
+	font-weight: bold;
+	font-size: 20px;
+	width: 235px;
+	height: 30px;
+	transition: opacity 550ms ease-in-out;
+	opacity: 0.4;
+}
+
+#conv:hover {
+	opacity: 1.0;
+}
