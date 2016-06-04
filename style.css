@@ -30,3 +30,7 @@ h4 {
 #conv:hover {
 	opacity: 1.0;
 }
+
+.input-container {
+	margin: 0 auto;
+}

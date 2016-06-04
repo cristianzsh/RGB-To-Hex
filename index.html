@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>RGB to Hex</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="script.js"></script>
-</head>
-<body>
-	<iframe src="https://ghbtns.com/github-btn.html?user=cristian-henrique&repo=RGB-To-Hex&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px" align="right"></iframe>
-	<iframe src="https://ghbtns.com/github-btn.html?user=cristian-henrique&repo=RGB-To-Hex&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="20px" align="right"></iframe> <br>
 
-	<center>
-		<h1>RGB to Hex</h1>
-		<form id="form">
-			<input type="text" id="r" size="5" maxlength="3" placeholder="Red" onkeypress="return onlyNumbers(event)"> -
-			<input type="text" id="g" size="5" maxlength="3" placeholder="Green" onkeypress="return onlyNumbers(event)"> -
-			<input type="text" id="b" size="5" maxlength="3" placeholder="Blue" onkeypress="return onlyNumbers(event)"> <br> <br>
-			<input type="button" id="conv" value="Convert" onclick="convert()">
-		</form><br> <br> <br> <br> <br> <br> <br> <br>
+  <head>
+    <title>RGB to Hex</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
 
-		<h1 id="result"></h1><br> <br> <br>
-		<h4>2016 - Cristian Henrique <br><a href="mailto:cristianmsbr@gmail.com">cristianmsbr@gmail.com</a></h4>
-	</center>
-</body>
+  <body>
+    <iframe src="https://ghbtns.com/github-btn.html?user=cristian-henrique&repo=RGB-To-Hex&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px" align="right"></iframe>
+    <iframe src="https://ghbtns.com/github-btn.html?user=cristian-henrique&repo=RGB-To-Hex&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="20px" align="right"></iframe>
+    <br>
+
+    <center>
+      <h1>RGB to Hex</h1>
+      <form id="form" onsubmit="return convert();">
+        <div class="input-container">
+          <input type="number" id="r" min="0" max="255" required="" placeholder="Red"> -
+          <input type="number" id="g" min="0" max="255" required="" placeholder="Green"> -
+          <input type="number" id="b" min="0" max="255" required="" placeholder="Blue">
+        </div>
+        <br>
+        <input id="conv" type="submit" value="Convert">
+      </form>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <h1 id="result"></h1>
+      <br>
+      <br>
+      <br>
+      <h4>2016 - Cristian Henrique <br><a href="mailto:cristianmsbr@gmail.com">cristianmsbr@gmail.com</a></h4>
+    </center>
+  </body>
+
 </html>
