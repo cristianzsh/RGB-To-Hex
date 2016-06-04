@@ -1,5 +1,10 @@
 body {
 	background: #EBEBEB;
+	-webkit-transition: background-color 0.7s ease-in-out;
+	-moz-transition: background-color 0.7s ease-in-out;
+	-ms-transition: background-color 0.7s ease-in-out;
+	-o-transition: background-color 0.7s ease-in-out;
+	transition: background-color 0.7s ease-in-out;
 }
 
 h1 {
