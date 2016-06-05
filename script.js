@@ -1,13 +1,3 @@
-function onlyNumbers(e) {
-	var key = (window.event) ? event.keyCode : e.which;
-
-	if ((key > 47 && key < 58)) return true;
-	else {
-		if (key == 8 || key == 0) return true;
-		else return false;
-	}
-}
-
 function convert() {
 	r = parseInt(document.getElementById("r").value);
 	g = parseInt(document.getElementById("g").value);
