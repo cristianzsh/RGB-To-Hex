@@ -1,11 +1,11 @@
 body {
 	font-family: "Calibri", sans-serif;
 	background: #EBEBEB;
-	-webkit-transition: background-color, color 0.7s ease-in-out;
-	-moz-transition: background-color, color 0.7s ease-in-out;
-	-ms-transition: background-color, color 0.7s ease-in-out;
-	-o-transition: background-color, color 0.7s ease-in-out;
-	transition: background-color, color 0.7s ease-in-out;
+	-webkit-transition: background-color, 0.7s ease-in-out;
+	-moz-transition: background-color, 0.7s ease-in-out;
+	-ms-transition: background-color, 0.7s ease-in-out;
+	-o-transition: background-color, 0.7s ease-in-out;
+	transition: background-color, 0.7s ease-in-out;
 }
 
 h1 {
