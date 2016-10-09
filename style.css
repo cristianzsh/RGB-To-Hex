@@ -1,5 +1,5 @@
 body {
-	font-family: "Calibri", sans-serif;
+	font-family: Roboto, sans-serif;
 	background: #EBEBEB;
 	-webkit-transition: background-color, 0.7s ease-in-out;
 	-moz-transition: background-color, 0.7s ease-in-out;
@@ -17,7 +17,7 @@ h1 {
 	font-weight: bold;
 	font-size: 20px;
 	width: 235px;
-	height: 30px;
+	height: 45px;
 	transition: opacity 550ms ease-in-out;
 	opacity: 0.4;
 }
